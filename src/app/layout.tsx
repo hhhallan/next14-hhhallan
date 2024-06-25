@@ -11,7 +11,6 @@ const poppins = Poppins({
   subsets: ["latin"],
   weight: ["100", "300", "400", "500", "600", "700", "800", "900"],
 });
-// todo: ajouter les images (experiences, projets dans public)
 export const metadata: Metadata = {
   metadataBase: new URL(DATA.url),
   title: {

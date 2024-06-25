@@ -12,23 +12,23 @@ export const Hero = () => {
       <div className="mx-auto w-full max-w-2xl space-y-8">
         <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-center">
           <div className="flex flex-1 flex-col space-y-1.5">
-            <h1 className="text-3xl tracking-tighter sm:text-5xl xl:text-6xl/none">
+            <h1 className="text-3xl tracking-tighter sm:text-5xl">
               cc, moi c&apos;est
-              <SparklesText
-                className="text-5xl sm:text-7xl xl:text-8xl/none"
-                text="hhhallan"
-              />
+              <SparklesText className="text-5xl sm:text-7xl" text="hhhallan" />
             </h1>
             <p className="max-w-[600px] md:text-xl">{DATA.description}</p>
           </div>
-          <Image
-            alt="cartoon allan"
-            src="/cartoon.svg"
-            width={1000}
-            height={1000}
-            priority
-            className="mx-auto size-[300px] scale-110 fill-black sm:mx-0 md:scale-125"
-          />
+          <div className="relative mx-auto h-full w-[200px] sm:w-[300px]">
+            <Image
+              alt="cartoon allan"
+              src="/cartoon-animate.svg"
+              layout="responsive"
+              width={1000}
+              height={1000}
+              priority
+              className="h-auto w-full"
+            />
+          </div>
         </div>
         <div className="flex flex-col gap-2 min-[400px]:flex-row">
           <Link

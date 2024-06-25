@@ -3,7 +3,7 @@ import { Icons } from "@/components/icons";
 export const DATA = {
   name: "hhhallan",
   initials: "AL",
-  url: "http://localhost:3000/",
+  url: "https://hhhallan.vercel.app/",
   location: "Rouen, France",
   locationLink: "https://www.google.com/maps/place/rouen",
   description:
@@ -12,7 +12,7 @@ export const DATA = {
     "moi c'est allan, j'ai 22 ans et je suis diplômé en développement web. Après avoir réalisé que rester derrière un ordinateur manquait d'interaction sociale, j'ai pris une pause d'un an pour travailler comme animateur tout en continuant à développer à côté.",
 
   contact: {
-    text: "ceci est u ntexte de contact, retrouvez-moi sur [Linkedin](https://www.linkedin.com/in/allan-leblond-4ab302201/)",
+    text: "Pour me contacter vous pouvez m'envoyer un [mail](mailto:allanstm76+work@gmail.com?subject=Contact) ou me retrouvez sur [Linkedin](https://www.linkedin.com/in/allan-leblond-4ab302201/).",
     email: "allanstm76+work@gmail.com",
     tel: "+33695627404",
     social: {
@@ -50,7 +50,7 @@ export const DATA = {
       start: "Avr 2022",
       end: "Juil 2023",
       description:
-        "Développement web sur le projet [Sergic](https://www.sergic.com/). Utilisation de la méthodologie agile, développement en Ruby & RubyOnRails.",
+        "Développement web sur le projet Sergic. Utilisation de la méthodologie agile, développement en Ruby & RubyOnRails.",
     },
     {
       company: "Vidis",
@@ -62,7 +62,7 @@ export const DATA = {
       start: "Oct 2021",
       end: "Avr 2022",
       description:
-        "Développement d'une application mobile avec Ionic et Angular sur le projet **Il s'appelle Reviens**.",
+        "Développement d'une application mobile avec Ionic et Angular sur le projet Il s'appelle Reviens.",
     },
     {
       company: "Internetrama",
@@ -74,7 +74,7 @@ export const DATA = {
       start: "Apr 2021",
       end: "Jul 2021",
       description:
-        "Développement web sur Wordpress et refonte pour le projet **SSI Système** en utilisant SASS.",
+        "Développement web sur Wordpress et refonte pour le projet SSI Système en utilisant SASS.",
     },
   ],
   education: [
@@ -107,7 +107,8 @@ export const DATA = {
   project_section: {
     tag: "Mes projets",
     title: "Mes dernières réalisations",
-    description: "description",
+    description:
+      "Ici vous pouvez retrouver les derniers projets que j'ai réalisé durant ma pause !",
   },
   projects: [
     {
