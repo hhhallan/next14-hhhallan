@@ -18,15 +18,14 @@ export const Hero = () => {
             </h1>
             <p className="max-w-[600px] md:text-xl">{DATA.description}</p>
           </div>
-          <div className="relative mx-auto h-full w-[200px] sm:w-[300px]">
+          <div className="relative mx-auto h-full w-[250px] sm:w-[300px]">
             <Image
-              alt="cartoon allan"
-              src="/cartoon-animate.svg"
-              layout="responsive"
+              alt="c'est moi en mode cartoon vintage"
+              src="/cartoon.svg"
               width={1000}
               height={1000}
               priority
-              className="h-auto w-full"
+              className="h-auto w-full scale-110 sm:scale-125"
             />
           </div>
         </div>
@@ -39,7 +38,9 @@ export const Hero = () => {
               }),
               "gap-2 whitespace-pre md:flex",
               "group relative gap-1 overflow-hidden text-base font-semibold tracking-tighter",
-              "transform-gpu ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-primary hover:ring-offset-2",
+              "transform-gpu ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-offset-2",
+              "bg-[#A07CFE] hover:bg-[#8f64fc] hover:ring-[#8f64fc]",
+              "dark:bg-foreground dark:ring-foreground",
             )}
           >
             Voir mes projets

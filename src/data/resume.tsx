@@ -9,7 +9,7 @@ export const DATA = {
   description:
     "Développeur et animateur, à la recherche constante de nouvelles expériences.",
   summary:
-    "moi c'est allan, j'ai 22 ans et je suis diplômé en développement web. Après avoir réalisé que rester derrière un ordinateur manquait d'interaction sociale, j'ai pris une pause d'un an pour travailler comme animateur tout en continuant à développer à côté.",
+    "À la fin de mon [Bachelor en développement web](https://www.needfor-school.com/bachelor-developpeur-web/) (dans lequel j'ai obtenu les titres de **Concepteur développeur d'applications** et **Chargé de projets en systèmes informatiques appliqués**) j'ai voulu prendre une pause. J'avais besoin de plus de contacts humains dans ma vie et j'ai choisi de me lancer dans l'animation. Même si je passe beaucoup de temps à jouer et à découvrir des jeux avec les enfants, je continue à coder. Mon objectif ? Trouver le bon équilibre entre le sport, le social et le code, et continuer à lancer des projets perso ou pro.",
 
   contact: {
     text: "Pour me contacter vous pouvez m'envoyer un [mail](mailto:allanstm76+work@gmail.com?subject=Contact) ou me retrouvez sur [Linkedin](https://www.linkedin.com/in/allan-leblond-4ab302201/).",
