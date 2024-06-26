@@ -1,8 +1,13 @@
+"use client";
+
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { ChevronRightIcon } from "lucide-react";
-import Link from "next/link";
+import dynamic from "next/dynamic";
+import Markdown from "react-markdown";
+
+// const Markdown = dynamic(() => import("react-markdown"), { ssr: false });
 
 type ResumeCardProps = {
   logoUrl: string;
@@ -25,8 +30,14 @@ export const ResumeCard = ({
   period,
   description,
 }: ResumeCardProps) => {
+  const handleClick = () => {
+    if (href) {
+      window.open(href, "_blank");
+    }
+  };
+
   return (
-    <Link href={href || "#"} className="block cursor-pointer" target="_blank">
+    <div onClick={handleClick} className="block cursor-pointer">
       <Card className="flex rounded-none border-b px-2 py-4">
         <div className="flex-none">
           <Avatar className="m-auto size-14 rounded-none">
@@ -65,10 +76,14 @@ export const ResumeCard = ({
             {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
           </CardHeader>
           <CardContent className="mt-2 text-xs sm:text-sm">
-            {description}
+            <div>
+              <Markdown className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
+                {description}
+              </Markdown>
+            </div>
           </CardContent>
         </div>
       </Card>
-    </Link>
+    </div>
   );
 };

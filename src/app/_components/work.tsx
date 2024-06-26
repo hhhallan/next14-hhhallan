@@ -8,7 +8,7 @@ export const Work = () => {
         <h2 className="text-xl font-bold">Experiences</h2>
         {DATA.work.map((work, id) => (
           <ResumeCard
-            key={work.title}
+            key={id}
             logoUrl={work.logoUrl}
             altText={work.company}
             title={work.company}
