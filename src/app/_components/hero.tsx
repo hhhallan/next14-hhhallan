@@ -13,7 +13,7 @@ export const Hero = () => {
         <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-center">
           <div className="flex flex-1 flex-col space-y-1.5">
             <h1 className="text-3xl tracking-tighter sm:text-5xl">
-              cc, moi c&apos;est
+              salut, moi c&apos;est
               <SparklesText className="text-5xl sm:text-7xl" text="hhhallan" />
             </h1>
             <p className="max-w-[600px] md:text-xl">{DATA.description}</p>

@@ -11,8 +11,8 @@ const RootPage = () => {
       <Hero />
       <About />
       <Projects />
-      <Work />
-      <Education />
+      {/* <Work /> */}
+      {/* <Education /> */}
       <Contact />
     </main>
   );
