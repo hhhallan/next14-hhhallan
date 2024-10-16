@@ -153,7 +153,7 @@ J'ai obtenu mon baccalauréat en sciences économiques et sociales (spécialité
     tag: "Mes projets",
     title: "Mes dernières réalisations",
     description:
-      "J'ai encore pleins d'idées de projets en tête pour la suite ! N'hésitez pas à me contacter si vous avez aussi des idées.",
+      "Ici vous retrouvez mes derniers projets professionnels comme personnels",
   },
   projects: [
     {
@@ -186,7 +186,7 @@ J'ai obtenu mon baccalauréat en sciences économiques et sociales (spécialité
       dates: "Avril 2024",
       active: true,
       description:
-        "Refonte complète de **AllBeer** avec un design moderne et des fonctionnalités améliorées pour offrir une meilleure expérience utilisateur.",
+        "Refonte fictive de **AllBeer** avec un design moderne et des fonctionnalités améliorées pour offrir une meilleure expérience utilisateur.",
       technologies: ["Next.js", "Typescript", "TailwindCSS", "Shadcn UI"],
       links: [
         {
