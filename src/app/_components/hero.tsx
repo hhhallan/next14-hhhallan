@@ -40,22 +40,21 @@ export const Hero = () => {
               "group relative gap-1 overflow-hidden text-base font-semibold tracking-tighter",
               "transform-gpu ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-offset-2",
               "bg-[#A07CFE] hover:bg-[#8f64fc] hover:ring-[#8f64fc]",
-              "dark:bg-foreground dark:ring-foreground",
+              "dark:bg-foreground dark:ring-foreground"
             )}
           >
             Voir mes projets
             <ChevronRight className="h-4 w-4 translate-x-0 transform transition-all duration-300 ease-out group-hover:translate-x-1" />
           </Link>
           <Link
-            href="mailto:hello@example.com"
-            target="_blank"
+            href="#contact"
             className={cn(
               buttonVariants({
                 variant: "secondary",
                 size: "lg",
               }),
               "gap-2 whitespace-pre md:flex",
-              "group relative gap-1 overflow-hidden text-base font-semibold tracking-tighter",
+              "group relative gap-1 overflow-hidden text-base font-semibold tracking-tighter"
             )}
           >
             Me contacter

@@ -49,11 +49,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <body
         className={cn(
           "mx-auto min-h-screen max-w-2xl bg-background px-6 py-12 antialiased sm:py-24",
-          poppins.className,
+          poppins.className
         )}
       >
         <ThemeProvider attribute="class" defaultTheme="light">

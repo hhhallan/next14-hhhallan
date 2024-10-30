@@ -6,14 +6,13 @@ export const DATA = {
   url: "https://hhhallan.vercel.app/",
   location: "Rouen, France",
   locationLink: "https://www.google.com/maps/place/rouen",
-  description:
-    "Développeur web, à la recherche constante de nouvelles expériences.",
+  description: "Développeur web & architecte d'espaces de travail Notion",
   summary:
-    "Après avoir plongé dans le monde du développement web avec un Bachelor en poche, j’ai décidé de m’aventurer hors des sentiers battus. Depuis, je jongle entre la tech et d'autres projets qui n'ont parfois rien à voir, mais qui me passionnent tout autant. Chaque jour est une nouvelle occasion d'explorer, de créer, et de trouver cet équilibre parfait entre code et créativité. Toujours curieux, jamais bloqué dans une seule case !",
+    "Après avoir plongé dans le monde du développement web avec un [Bachelor](https://www.needfor-school.com/bachelor-developpeur-web/) en poche, j’ai décidé de m’aventurer hors de ma zone de confort. Depuis, je jongle entre la tech et d'autres projets qui n'ont parfois rien à voir, mais qui me passionnent tout autant. Chaque jour est une nouvelle occasion d'explorer, de créer, et de trouver cet équilibre parfait entre code et créativité.",
 
   contact: {
-    text: "Pour me contacter vous pouvez m'envoyer un [mail](mailto:allanstm76+work@gmail.com?subject=Contact) ou me retrouvez sur [Linkedin](https://www.linkedin.com/in/allan-leblond-4ab302201/).",
-    email: "allanstm76+work@gmail.com",
+    text: "Pour me contacter vous pouvez m'envoyer un [mail](mailto:hello@hhhallan.fr?subject=Contact) ou me retrouvez sur [Linkedin](https://www.linkedin.com/in/allan-leblond-4ab302201/).",
+    email: "hello@hhhallan.fr",
     tel: "+33695627404",
     social: {
       GitHub: {
@@ -150,10 +149,9 @@ J'ai obtenu mon baccalauréat en sciences économiques et sociales (spécialité
     },
   ],
   project_section: {
-    tag: "Mes projets",
-    title: "Mes dernières réalisations",
-    description:
-      "Ici vous retrouvez mes derniers projets professionnels comme personnels",
+    tag: "Projets",
+    title: "Dernières réalisations",
+    description: "voici quelques uns de mes projets favoris",
   },
   projects: [
     {
@@ -201,6 +199,23 @@ J'ai obtenu mon baccalauréat en sciences économiques et sociales (spécialité
         },
       ],
       image: "/allbeer.png",
+      video: "",
+    },
+    {
+      title: "Budokenkyudo",
+      href: "https://budokenkyudo.vercel.app/",
+      dates: "En cours de construction",
+      active: true,
+      description: "Site réalisé pour l'association du Budokenkyudo.",
+      technologies: ["Next.js", "Typescript", "TailwindCSS", "Shadcn UI"],
+      links: [
+        {
+          type: "Website",
+          href: "https://budokenkyudo.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/placeholder.svg",
       video: "",
     },
   ],
