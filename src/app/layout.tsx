@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     default: DATA.name,
     template: `%s | ${DATA.name}`,
   },
-  description: DATA.description,
+  description: DATA.descriptionSEO,
   openGraph: {
     title: `${DATA.name}`,
-    description: DATA.description,
+    description: DATA.descriptionSEO,
     url: DATA.url,
     siteName: `${DATA.name}`,
     locale: "fr_FR",

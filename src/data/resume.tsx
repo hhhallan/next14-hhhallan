@@ -6,7 +6,8 @@ export const DATA = {
   url: "https://hhhallan.fr",
   location: "Rouen, France",
   locationLink: "https://www.google.com/maps/place/rouen",
-  description:
+  description: "Développeur web & architecte d'espaces de travail Notion",
+  descriptionSEO:
     "Développeur web & architecte d'espaces de travail Notion freelance en France spécialisé dans la création et refonte de sites web, et également dans la création et l'optimisation d'espaces de travail sur Notion",
   summary:
     "Après avoir plongé dans le monde du développement web avec un [Bachelor](https://www.needfor-school.com/bachelor-developpeur-web/) en poche, j’ai décidé de m’aventurer hors de ma zone de confort. Depuis, je jongle entre la tech et d'autres projets qui n'ont parfois rien à voir, mais qui me passionnent tout autant. Chaque jour est une nouvelle occasion d'explorer, de créer, et de trouver cet équilibre parfait entre code et créativité.",
