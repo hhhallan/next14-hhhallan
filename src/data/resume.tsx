@@ -1,15 +1,80 @@
 import { Icons } from "@/components/icons";
 
 export const DATA = {
-  name: "hhhallan",
+  name: "hhhallan | Développeur web & architecte d'espaces de travail Notion",
   initials: "AL",
-  url: "https://hhhallan.vercel.app/",
+  url: "https://hhhallan.fr",
   location: "Rouen, France",
   locationLink: "https://www.google.com/maps/place/rouen",
-  description: "Développeur web & architecte d'espaces de travail Notion",
+  description:
+    "Développeur web & architecte d'espaces de travail Notion freelance en France spécialisé dans la création et refonte de sites web, et également dans la création et l'optimisation d'espaces de travail sur Notion",
   summary:
     "Après avoir plongé dans le monde du développement web avec un [Bachelor](https://www.needfor-school.com/bachelor-developpeur-web/) en poche, j’ai décidé de m’aventurer hors de ma zone de confort. Depuis, je jongle entre la tech et d'autres projets qui n'ont parfois rien à voir, mais qui me passionnent tout autant. Chaque jour est une nouvelle occasion d'explorer, de créer, et de trouver cet équilibre parfait entre code et créativité.",
+  keywords: [
+    // Mots-clés principaux
+    "Développeur web freelance",
+    "Développeur NextJS freelance",
+    "Développeur Typescript freelance",
+    "Développeur Tailwind CSS",
+    "Shadcn freelance",
+    "Freelance développeur web Elbeuf",
+    "Freelance développeur web Rouen",
+    "Développeur web Normandie",
+    "Développeur web France",
+    "Portfolio développeur web freelance",
+    "Architecte d'espaces de travail Notion",
+    "Création d'espace Notion freelance",
+    "Notion expert freelance",
+    "Architecte Notion freelance",
+    "Freelance Notion Normandie",
 
+    // Variantes et autres mots-clés secondaires
+    "Allan",
+    "Allan Leblond",
+    "hhhallan",
+    "hallan",
+    "Leblond",
+    "Allan développeur web freelance",
+    "Hallan développeur web",
+    "HHHallan développeur web",
+    "Création de site web NextJS",
+    "Développement frontend NextJS",
+    "Développement frontend Tailwind",
+    "Site web responsive avec Tailwind",
+    "Solutions Notion pour entreprises",
+    "Organisation Notion pour professionnels",
+    "Notion workspace architecture",
+    "Développeur web en Normandie",
+    "Conception de sites web Rouen",
+    "Développeur web à Elbeuf",
+    "Freelance développement web en France",
+    "Expert en gestion d'espace Notion",
+    "Développeur web freelance Elbeuf",
+
+    // Mots-clés de localisation
+    "Développeur web à Elbeuf",
+    "Développeur web Rouen",
+    "Freelance web en Normandie",
+    "Développeur freelance à Rouen",
+    "Services de développement web à Elbeuf",
+    "Agence de développement web Rouen",
+    "Développeur web Normandie France",
+    "Expert développement web Rouen",
+    "Freelance web Elbeuf Normandie",
+    "Web design Rouen Normandie",
+
+    // Mots-clés longue traîne (SEO spécifique)
+    "Freelance développeur web NextJS en Normandie",
+    "Création de sites web professionnels à Elbeuf",
+    "Expert NextJS, Typescript et Tailwind à Rouen",
+    "Services Notion freelance pour entreprises à Rouen",
+    "Conception de dashboard Notion pour freelances",
+    "Développeur freelance utilisant NextJS, Tailwind et Shadcn",
+    "Architecte Notion freelance pour entreprises",
+    "Développeur web spécialisé en NextJS Rouen",
+    "Notion workspace design pour équipes",
+    "Création de sites web avec NextJS et Tailwind Rouen",
+  ],
   contact: {
     text: "Pour me contacter vous pouvez m'envoyer un [mail](mailto:hello@hhhallan.fr?subject=Contact) ou me retrouvez sur [Linkedin](https://www.linkedin.com/in/allan-leblond-4ab302201/).",
     email: "hello@hhhallan.fr",
@@ -25,129 +90,6 @@ export const DATA = {
       },
     },
   },
-
-  work: [
-    {
-      company: "Anim'Elbeuf",
-      href: "https://animelbeuf.fr/",
-      badges: [],
-      location: "Elbeuf",
-      title: "Animateur",
-      logoUrl: "/work/anim-elbeuf.png",
-      start: "Sep 2023",
-      end: "Sep 2024",
-      description: `
-Animateur avec les enfants dans le périscolaire et dans les centres de loisirs.
-  
-- Organisation d'activités ludiques
-- Gestion de groupes d'enfants
-- Certification BAFA
-`,
-    },
-    {
-      company: "BlueSoft Group",
-      href: "https://www.bluesoft-group.com/",
-      badges: [],
-      location: "Rouen",
-      title: "Développeur web",
-      logoUrl: "/work/bsg.png",
-      start: "Avr 2022",
-      end: "Juil 2023",
-      description: `
-Maintenance d'un projet développé en React et Ruby.
-
-**Projet : [Sergic](https://sergic.com)**
-- Méthodologie Agile
-- Travail d'équipe
-- Gestion de ticket front & Ruby (ActiveRecord)
-`,
-    },
-    {
-      company: "Vidis",
-      badges: [],
-      href: "https://marcmoileu.fr/index.php",
-      location: "Rouen",
-      title: "Développeur web et mobile",
-      logoUrl: "",
-      start: "Oct 2021",
-      end: "Avr 2022",
-      description: `
-Développement d'une application mobile avec Ionic et Angular sur le projet Il s'appelle Reviens.
-
-**Projet : Il s'appelle Reviens**
-- Développement mobile avec Ionic
-- Utilisation d'Angular
-- Autonomie
-`,
-    },
-    {
-      company: "Internetrama",
-      badges: [],
-      href: "https://www.asuwish.fr/structures/internetrama",
-      location: "Rouen",
-      title: "Développeur web",
-      logoUrl: "/work/internetrama.svg",
-      start: "Avr 2021",
-      end: "Jul 2021",
-      description: `
-Développement web sur Wordpress et refonte pour le projet SSI Système en utilisant SASS.
-
-**Projet : SSI Système**
-- Développement sous Wordpress
-- Utilisation de SASS
-- Création d'un plugin WP
-`,
-    },
-  ],
-  education: [
-    {
-      school: "Need For School",
-      href: "https://www.needfor-school.com/",
-      logoUrl: "/education/nfs.png",
-      start: "2020",
-      end: "2023",
-      degree: `
-Pendant mon bachelor, j'ai appris les bases du développement web lors de projets modulaire et acquis beaucoup de compétences transverses grâce aux différents cours (UX/UI, Prise de parole, ..).
-
-*Ce que ça m'a apporté :*
-- *Compétences en développement web et mobile*
-- *Gestion de projets informatiques*
-
-**Titres obtenus :**
-- Concepteur développeur d'applications
-- Chargé de projets en systèmes informatiques appliqués
-- Certification TOEIC (825)
-`,
-    },
-    {
-      school: "Université de Rouen",
-      href: "https://www.univ-rouen.fr/",
-      logoUrl: "",
-      start: "2019",
-      end: "2020",
-      degree: `
-Une année en psychologie m'a permis de mieux comprendre le comportement humain, une compétence utile dans de nombreux domaines.
-
-*Ce que ça m'a apporté :*
-- *Introduction à la psychologie*
-- *Compréhension des comportements humains*
-- *Développement de l'empathie*
-`,
-    },
-    {
-      school: "Lycée André Maurois",
-      href: "https://maurois-elbeuf.lycee.ac-normandie.fr/",
-      logoUrl: "",
-      start: "2016",
-      end: "2019",
-      degree: `
-J'ai obtenu mon baccalauréat en sciences économiques et sociales (spécialité mathématiques), ce qui m'a donné une bonne base en analyse économique et sociale.
-
-**Titre obtenu :**
-- Baccalauréat ES
-`,
-    },
-  ],
   project_section: {
     tag: "Projets",
     title: "Dernières réalisations",
@@ -157,10 +99,10 @@ J'ai obtenu mon baccalauréat en sciences économiques et sociales (spécialité
     {
       title: "Qualisse",
       href: "https://qualissee.vercel.app/",
-      dates: "Mai 2024 - En cours",
+      dates: "Site web",
       active: true,
       description:
-        "Qualisse est une entreprise de consulting naissante, offrant des services spécialisés pour optimiser les processus de développement et améliorer l'efficacité des équipes techniques.",
+        "**Qualisse** est une entreprise de consulting naissante, offrant des services spécialisés pour optimiser les processus de développement et améliorer l'efficacité des équipes techniques.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -181,7 +123,7 @@ J'ai obtenu mon baccalauréat en sciences économiques et sociales (spécialité
     {
       title: "AllBeer",
       href: "https://allbeer.vercel.app/",
-      dates: "Avril 2024",
+      dates: "Refonte de l'interface",
       active: true,
       description:
         "Refonte fictive de **AllBeer** avec un design moderne et des fonctionnalités améliorées pour offrir une meilleure expérience utilisateur.",
@@ -204,9 +146,9 @@ J'ai obtenu mon baccalauréat en sciences économiques et sociales (spécialité
     {
       title: "Budokenkyudo",
       href: "https://budokenkyudo.vercel.app/",
-      dates: "En cours de construction",
+      dates: "Site web",
       active: true,
-      description: "Site réalisé pour l'association du Budokenkyudo.",
+      description: "Site réalisé pour l'association du **Budokenkyudo**.",
       technologies: ["Next.js", "Typescript", "TailwindCSS", "Shadcn UI"],
       links: [
         {

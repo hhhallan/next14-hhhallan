@@ -41,6 +41,7 @@ export const metadata: Metadata = {
     google: "",
     yandex: "",
   },
+  keywords: DATA.keywords.join(", "),
 };
 
 export default function RootLayout({
