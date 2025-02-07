@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "project_sections",
+  "info": {
+    "singularName": "project-section",
+    "pluralName": "project-sections",
+    "displayName": "Project Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tag": {
+      "type": "string",
+      "default": "Projets"
+    },
+    "title": {
+      "type": "string",
+      "default": "Dernières réalisations"
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "voici quelques uns de mes projets favoris"
+    }
+  }
+}
